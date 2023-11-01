@@ -1,11 +1,12 @@
 {
   "name": "workflow-course-assignment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a project for the workflow course assignment.",
   "main": "index.js",
   "scripts": {
     "build": "sass src/scss:dist/css",
-    "start": "sass --watch src/scss:dist/css & live-server"
+    "start": "sass --watch src/scss:dist/css & live-server",
+    "format": "prettier -w src/js/**/*.js"
   },
   "keywords": [],
   "author": "Noroff",
