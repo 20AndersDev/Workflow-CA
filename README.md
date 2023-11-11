@@ -21,14 +21,15 @@ This workflow course assignment is a course aimed to help creating workflows for
 
 ## Project setup
  - clone this repo: https://github.com/Noroff-Anders/Workflow-CA.git
- - In terminal run ''' npm install '' to install all dependecies
- - to run the project run ''' npm start '''
+ - In terminal run:
+``` npm install ``` to install all dependecies
+ - to run the project run ``` npm start ```
 
  e2e: 
-  - To run Cypress tests : '''npm run test-e2e'''
+  - To run Cypress tests : ``` npm run test-e2e ```
 
  Unit:
-  - Jest tests for unti tests: ''' npm run test-unit '''
+  - Jest tests for unti tests: ``` npm run test-unit ```
 
 
 
