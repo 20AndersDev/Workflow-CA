@@ -3,7 +3,7 @@ describe("User tests", () => {
       let email = "Norofftest@noroff.no";
       let password = "Norofftest@noroff.no";
   
-      cy.visit("https://norofffeu.github.io/social-media-client/");
+      cy.visit("https://noroff-anders.github.io/Workflow-CA/");
       cy.title().should("contain", "Test Client");
       cy.wait(1000);
   
@@ -23,7 +23,7 @@ describe("User tests", () => {
         let email = "Norofftest@noroff.no";
         let password = "Norofftest@noroff.no";
     
-        cy.visit("https://norofffeu.github.io/social-media-client/");
+        cy.visit("https://noroff-anders.github.io/Workflow-CA/");
         cy.title().should("contain", "Test Client");
         cy.wait(1000);
     
@@ -46,7 +46,7 @@ describe("User tests", () => {
         let email = "Norofftest@gmail.com";
         let password = "Norofftest@noroff.no";
     
-        cy.visit("https://norofffeu.github.io/social-media-client/");
+        cy.visit("https://noroff-anders.github.io/Workflow-CA/");
         cy.title().should("contain", "Test Client");
         cy.wait(1000);
     
