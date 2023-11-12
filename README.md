@@ -21,15 +21,41 @@ This workflow course assignment is a course aimed to help creating workflows for
 
 ## Project setup
  - clone this repo: https://github.com/Noroff-Anders/Workflow-CA.git
- - In terminal run:
-``` npm install ``` to install all dependecies
- - to run the project run ``` npm start ```
 
+ - In terminal run the following commands:
+
+ - To install all dependecies``` npm install ``` 
+ - To run the project run ``` npm start ```
+ - For compiling Sass to css run ``` npm run build ```
+
+
+## How to run project test
  e2e: 
   - To run Cypress tests : ``` npm run test-e2e ```
 
+  Cypress is configurated to check if: 
+   -  The user can log in and access their profile
+   -  The user cannot submit the login form with invalid credentials and is shown a message
+   -  The user can log out with the logout button
+
+   cypress script test file are located in ``` cypress/e2e/Testing/client-user-cy,js ```
+
  Unit:
   - Jest tests for unti tests: ``` npm run test-unit ```
+
+  Unit tests iplemented: 
+   - Unit tests are located in ``` src/js/api/auth/ ``` filenames are ``` login.test.js ``` and ``` logout.test.js ```
+
+   These tests are configurated to check if:
+   - The login function fetches and stores a token in browser storage
+   - The logout function clears the token from browser storage 
+
+
+## Formatting 
+Worflow / Hooks:  
+ This project is configurated to run Prettier and Eslint on commit and push.
+
+The project default branch is master, this branch is protected by running all tests and deploy to github pages. Project is configured to build and deploy to pages on merge to default branch
 
 
 
