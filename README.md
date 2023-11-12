@@ -59,5 +59,5 @@ The project default branch is master, this branch is protected by running all te
 
 
 
-##contributions
+## Contributions
 This is an school project so it is not open for contributions
