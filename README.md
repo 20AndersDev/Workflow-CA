@@ -33,5 +33,5 @@ This workflow course assignment is a course aimed to help creating workflows for
 
 
 
-##contributions
+## Contributions
 This is an school project so it is not open for contributions
